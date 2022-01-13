@@ -14,6 +14,9 @@ export class TodoComponent implements OnInit {
     { title: 'Learn basic english', completed: true }
   ];
   constructor() { }
+  deleteTask(taskToDelete: Task) {
+    this.tasks = this.tasks.filter(task=>task!=taskToDelete);
+  }
 
   ngOnInit(): void {
     console.table(this.tasks);
