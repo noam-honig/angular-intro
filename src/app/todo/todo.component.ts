@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TodoComponent implements OnInit {
 
+  title:string = 'The meaning of life = ';
   constructor() { }
 
   ngOnInit(): void {
