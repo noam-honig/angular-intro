@@ -13,6 +13,7 @@ import {MatListModule} from '@angular/material/list';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import { FormsModule } from '@angular/forms';
 import {MatInputModule} from '@angular/material/input';
+import {MatIconModule} from '@angular/material/icon';
 
 
 
@@ -23,6 +24,7 @@ import {MatInputModule} from '@angular/material/input';
     TodoComponent
   ],
   imports: [
+    MatIconModule,
     MatInputModule,
     FormsModule,
     MatSlideToggleModule,
