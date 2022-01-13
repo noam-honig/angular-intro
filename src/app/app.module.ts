@@ -12,6 +12,8 @@ import {MatCardModule} from '@angular/material/card';
 import {MatListModule} from '@angular/material/list';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import { FormsModule } from '@angular/forms';
+import {MatInputModule} from '@angular/material/input';
+
 
 
 @NgModule({
@@ -21,6 +23,7 @@ import { FormsModule } from '@angular/forms';
     TodoComponent
   ],
   imports: [
+    MatInputModule,
     FormsModule,
     MatSlideToggleModule,
     MatListModule,

@@ -1,7 +1,11 @@
 <mat-card style="
 margin: 10px;
 ">
-    <p>{{title}} {{6*7}}</p>
+    <mat-form-field appearance="standard">
+        <mat-label>New task title</mat-label>
+        <input matInput [(ngModel)]="title">
+    </mat-form-field>
+    <button mat-button (click)="add()">Add</button>
     <mat-list role="list">
         <mat-list-item *ngFor="let task of tasks">
             <mat-slide-toggle [(ngModel)]="task.completed">
