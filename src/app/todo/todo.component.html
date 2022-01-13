@@ -10,7 +10,7 @@ margin: 10px;
     </button>
     <mat-list role="list">
         <mat-list-item *ngFor="let task of tasks">
-            <mat-slide-toggle [(ngModel)]="task.completed">
+            <mat-slide-toggle [(ngModel)]="task.completed" (change)="save()">
                 {{task.title}} - {{task.completed?"Done":"not done :("}}
             </mat-slide-toggle>
             <span class="spacer"></span>
