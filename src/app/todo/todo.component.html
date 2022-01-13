@@ -3,9 +3,10 @@ margin: 10px;
 ">
     <p>{{title}} {{6*7}}</p>
     <mat-list role="list">
-        <mat-list-item role="listitem">Item 1</mat-list-item>
-        <mat-list-item role="listitem">Item 2</mat-list-item>
-        <mat-list-item role="listitem">Item 3</mat-list-item>
+        <mat-list-item *ngFor="let task of tasks">
+            {{task.title}} - {{task.completed?"Done":"not done :("}}
+        </mat-list-item>
+
     </mat-list>
 
 </mat-card>
