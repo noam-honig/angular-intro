@@ -36,6 +36,9 @@ export class TodoComponent implements OnInit {
     this.title = '';
     this.save();
   }
+  getCompleted() {
+    return this.tasks.filter(task => task.completed).length;
+  }
 
 }
 interface Task {
