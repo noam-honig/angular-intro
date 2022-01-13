@@ -5,7 +5,9 @@ margin: 10px;
         <mat-label>New task title</mat-label>
         <input matInput [(ngModel)]="title">
     </mat-form-field>
-    <button mat-button (click)="add()">Add</button>
+    <button *ngIf="title.length>0" mat-button
+        [disabled]="title.length<4"
+        (click)="add()">Add</button>
     <mat-list role="list">
         <mat-list-item *ngFor="let task of tasks">
             <mat-slide-toggle [(ngModel)]="task.completed">
