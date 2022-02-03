@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1643873378568,
+  "timestamp": 1643875058372,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -17,7 +17,7 @@
         "/manifest.webmanifest",
         "/polyfills.fb589b80b115cbdc.js",
         "/runtime.bb6942dc8b704722.js",
-        "/styles.4050c02c9fdf46d6.css"
+        "/styles.126ea9bf2df0fcbd.css"
       ],
       "patterns": []
     },
@@ -36,7 +36,17 @@
         "/assets/icons/icon-384x384.png",
         "/assets/icons/icon-512x512.png",
         "/assets/icons/icon-72x72.png",
-        "/assets/icons/icon-96x96.png"
+        "/assets/icons/icon-96x96.png",
+        "/material-icons-outlined.ce30bad02959db9c.woff",
+        "/material-icons-outlined.e5b85a79d3c7c192.woff2",
+        "/material-icons-round.2026e10a42ab1b13.woff",
+        "/material-icons-round.27b2340bc297a357.woff2",
+        "/material-icons-sharp.80f30378e56d79cb.woff2",
+        "/material-icons-sharp.fa1318d8977def50.woff",
+        "/material-icons-two-tone.74e99fd39950a599.woff2",
+        "/material-icons-two-tone.77fa5269419b2c93.woff",
+        "/material-icons.5d458c6b1853024a.woff",
+        "/material-icons.640a64b8b3b4b2c4.woff2"
       ],
       "patterns": []
     }
@@ -52,12 +62,22 @@
     "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/index.html": "76ee3127e590dd925401f9dff456ea849db29dc4",
+    "/index.html": "9d121ef55a7fd33d7689c37b00d5d23141070141",
     "/main.db8704fca93a877b.js": "2b77e5169f8158e38120b364210d2856b1253b9e",
     "/manifest.webmanifest": "ffc5c30147a21c30de9368df93fa5d7b6b4817dd",
+    "/material-icons-outlined.ce30bad02959db9c.woff": "17b3ed4d45f9f4527eec9161c40e90f52d17f27d",
+    "/material-icons-outlined.e5b85a79d3c7c192.woff2": "9e52ce6e924fad6028bd66f8d5b8e621cd7d4e13",
+    "/material-icons-round.2026e10a42ab1b13.woff": "0ef2ac3a00151964109870c6c31527ebb3c1a292",
+    "/material-icons-round.27b2340bc297a357.woff2": "bccd275cee54d68e2a2844549e476f10b4fa94b3",
+    "/material-icons-sharp.80f30378e56d79cb.woff2": "1948f305b2e84ead91dac4993970e77522524ef1",
+    "/material-icons-sharp.fa1318d8977def50.woff": "b809eefe220cf5002f71de11636a8495415bb552",
+    "/material-icons-two-tone.74e99fd39950a599.woff2": "098283be362585192ef18d8137b8452fc9e42c1b",
+    "/material-icons-two-tone.77fa5269419b2c93.woff": "9096747b558ee3821d12d986d3972550ce18b37f",
+    "/material-icons.5d458c6b1853024a.woff": "436664a166223be263fdb05c89f674c3de58d19d",
+    "/material-icons.640a64b8b3b4b2c4.woff2": "276bdbfa3c02fe89977a4e4700f75e3bac5485e4",
     "/polyfills.fb589b80b115cbdc.js": "f6a45fce42d0fae1b35c623d25e62264902b0b36",
     "/runtime.bb6942dc8b704722.js": "1210f2a43a55241e87ec97bfaa5d439142a5a757",
-    "/styles.4050c02c9fdf46d6.css": "abc1685740c94653e5bc6e7d954a52c3684bd38f"
+    "/styles.126ea9bf2df0fcbd.css": "5a24c851154ccb44d23f437b30e112dac03c4bd2"
   },
   "navigationUrls": [
     {
